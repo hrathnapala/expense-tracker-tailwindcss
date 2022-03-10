@@ -4,20 +4,20 @@ import "./App.css";
 import Forms from "./components/Forms";
 import Graph from "./components/Graph";
 
-const reducer = (state, action) => {
-  switch (action.type) {
-    case "INCREMENT":
-      return { ...state, count: state.count + 1 };
-    case "DECREMENT":
-      if (state.count > 0) {
-        return { ...state, count: state.count - 1 };
-      } else {
-        return state;
-      }
-    default:
-      return state;
-  }
-};
+// const reducer = (state, action) => {
+//   switch (action.type) {
+//     case "INCREMENT":
+//       return { ...state, count: state.count + 1 };
+//     case "DECREMENT":
+//       if (state.count > 0) {
+//         return { ...state, count: state.count - 1 };
+//       } else {
+//         return state;
+//       }
+//     default:
+//       return state;
+//   }
+// };
 
 const App = () => {
   // const [state, dispatch] = useReducer(reducer, { count: 0, age: 25 });
