@@ -1,8 +1,10 @@
 // import React, { useReducer } from "react";
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Forms from "./components/Forms";
 import Graph from "./components/Graph";
+
+// import axios from "axios";
 
 // const reducer = (state, action) => {
 //   switch (action.type) {
@@ -21,6 +23,17 @@ import Graph from "./components/Graph";
 
 const App = () => {
   // const [state, dispatch] = useReducer(reducer, { count: 0, age: 25 });
+
+  // useEffect(() => {
+  //   axios
+  //     .get("https://ghibliapi.herokuapp.com/people")
+  //     .then((response) => {
+  //       console.log(response.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
 
   return (
     <div className="body">

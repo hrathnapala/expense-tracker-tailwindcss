@@ -29,7 +29,7 @@ const config = {
 
 const Graph = () => {
   return (
-    <div className="flex justify-center max-w-xs mx-auto">
+    <div className="flex max-w-xs mx-auto">
       <div className="item">
         <div className="chart relative">
           <Doughnut {...config}></Doughnut>
